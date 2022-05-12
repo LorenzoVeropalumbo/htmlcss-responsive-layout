@@ -171,6 +171,9 @@ nav{
   font-family: 'PT Sans', sans-serif;
   padding: 0 0.1rem;
 }
+.stategic-planning .container{
+  padding-bottom: 3rem;
+}
 /*-----------------
       MEDIA
 -----------------*/
@@ -202,6 +205,12 @@ nav{
     width: 250px;
   }
   /* End Column Application */
+
+  /* Stategic Planning */
+  .stategic-planning h2{
+    font-size: 4rem;
+  }
+  /* End Stategic Planning */
   
 }
 /* DESKTOP */
@@ -249,6 +258,7 @@ nav{
   .stategic-planning .column-flex{
     padding: 0 5rem;
   }
+  /* End Stategic Planning */
 }
 
 /*-----------------
