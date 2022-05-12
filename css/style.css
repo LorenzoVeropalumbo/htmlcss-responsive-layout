@@ -1,0 +1,97 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  color: inherit;
+}
+/*-----------------
+        GENERAL
+ -----------------*/
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.mobile-padding{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.flex-container{
+  display: flex;
+}
+
+/* Buttons */
+.buttons{
+  padding: 7px 15px;
+  border-radius: 20px;
+}
+
+/*-----------------
+      HEADER
+-----------------*/
+header{
+  height: 80px;
+  background-color: #0084fd;
+  color: white;
+}
+
+/* Nav-Menù */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.nav-menu{
+  display: none;
+}
+
+.nav-menu li{
+  font-size: 18px;
+  padding: 0 .7rem;
+}
+
+.nav-menu li a{
+  text-decoration: none;
+}
+
+/*-----------------
+      MEDIA
+-----------------*/
+/* TABLET */
+@media screen and (min-width: 768px){
+
+}
+/* DESKTOP */
+@media screen and (min-width: 992px){
+
+  /* HEADER */
+  .nav-menu{
+    display: block;
+  }
+  .burger-menu{
+    display: none;
+  }
+}
+
+/*-----------------
+      COLORS
+-----------------*/
+.button-white{
+  background-color: white;
+  color: black;
+}
