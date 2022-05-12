@@ -7,6 +7,7 @@
 
 img{
   display: block;
+  width: 100%;
 }
 
 ul{
@@ -55,6 +56,14 @@ body{
   padding: 2rem 2rem;
 }
 
+.padding-top{
+  padding-top: 4rem;
+}
+
+.padding-topandbottom{
+  padding: 2rem 0;
+}
+
 /* Buttons */
 .buttons{
   padding: 0.45rem 0.95rem;
@@ -88,7 +97,7 @@ nav{
 }
 
 .nav-menu li{
-  font-size: 20px;
+  font-size: 1.3rem;
   padding: 0 1rem;
 }
 
@@ -99,6 +108,7 @@ nav{
 /*-----------------
       MAIN
 -----------------*/
+
 /* Demo Application */
 .demo-app{
   margin-top: 3rem;
@@ -108,17 +118,17 @@ nav{
 .demo-app h3{
   color: #0084fd;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   padding: 0;
 }
 #flex-app h3{
   margin-top: 1rem;
 }
 .demo-app p{
-  padding: 1.5rem 0 0.5rem 0;
+  padding: 1.5rem 0 1.5rem 0;
   font-weight: 900;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 1rem;
+  line-height: 1.8rem;
   color: #5a6e7f; 
   margin-bottom: 0.5rem;
 }
@@ -136,6 +146,31 @@ nav{
 }
 
 /* End Demo Application */
+
+/* Stategic Planning */
+.stategic-planning h2{
+  font-size: 2.1rem;
+  color: white;
+  padding-top: 5rem;
+}
+.stategic-planning p{
+  font-size: 1rem;
+  color: white;
+  padding-top: 2.5rem;
+  line-height: 1.8rem;
+}
+
+.stategic-planning h3{
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.stategic-planning .development-p{
+  color: black;
+  font-style: italic;
+  font-family: 'PT Sans', sans-serif;
+  padding: 0 0.1rem;
+}
 /*-----------------
       MEDIA
 -----------------*/
@@ -159,6 +194,7 @@ nav{
   }
   .demo-app p{
     font-size: 18px;
+    font-weight: 900;
   }
   .demo-app img{
     display: block;
@@ -194,6 +230,25 @@ nav{
     width: 50%;
   }
   /* End Column content */
+
+  /* Stategic Planning */
+  .stategic-planning .column-flex{
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .stategic-planning .column-app{
+    width: 40%;
+  }
+  .stategic-planning .bg-app-development img{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .stategic-planning .bg-app-development p{
+    padding: 0 2rem;
+  }
+  .stategic-planning .column-flex{
+    padding: 0 5rem;
+  }
 }
 
 /*-----------------
@@ -204,6 +259,16 @@ nav{
   color: black;
 }
 
+.btn-arrow{
+  background-color: #9792e4;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+}
 .app-store-btn{
   letter-spacing: 0.2rem;
   font-weight: 500;
@@ -211,9 +276,17 @@ nav{
   background-color: #0084fd;
   font-weight: 700;
 }
-
+.bg-app-development{
+  background-color: white;
+  border-radius: 60px;
+  color: black;
+  padding-top: 2rem;
+}
 .bg-light-blue{
   background-color: #b5ddff; 
   border-radius: 20px;
   
+}
+.bg-violet{
+  background-color: #9792e4;
 }
