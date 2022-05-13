@@ -373,6 +373,24 @@ nav{
 
 }
 /* End Get Started */
+
+/*-----------------
+      Footer
+-----------------*/
+footer p{
+  color: white;
+  text-align: center;
+  font-size: 0.85rem;
+  padding-bottom: 2rem;
+}
+
+footer p:first-child{
+  padding: 3rem 0 4rem;
+}
+
+footer p a{
+  color: #9792e4;
+}
 /*-------------------------------------------------------------------------
                                   MEDIA
 --------------------------------------------------------------------------*/
@@ -458,7 +476,7 @@ nav{
   }
   /* End About US Section */
   .container-small{
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
   }
 
@@ -525,7 +543,10 @@ nav{
   }
   /* End Benefits Section */
 
-
+  .container-small{
+    width: 40%;
+    margin: 0 auto;
+  }
 }
 
 /*-----------------
