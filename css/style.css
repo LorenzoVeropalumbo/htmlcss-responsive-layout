@@ -25,9 +25,16 @@ body{
 }
 
 .align-items{
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
   width: 100%;
+}
+/* Text */
+.font-big{
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
 }
 
 /* Img */
@@ -53,10 +60,10 @@ body{
   width: 100%;
   margin-bottom: 1.5rem;
 }
-.testimonials-img-col{
+.col-30{
   width: 100%;
 }
-.testimonials-img-col{
+.col-70{
   width: 100%;
 }
 /* Containers */
@@ -207,16 +214,23 @@ nav{
 .testimonials-section h2{
   font-size: 35px;
   color: #9792e4;
+  padding-bottom: 2rem;
 }
 .testimonials-section p{
-  padding: 2rem 1rem;
   font-size: 18px;
-  font-weight: 100;
+  line-height: 2rem;
 }
 
-/*-----------------
-      MEDIA
------------------*/
+.testimonials-section .testimonials-text p{
+  color: white;
+}
+
+.testimonials-section .align-items{
+  padding: 1rem;
+}
+/*-------------------------------------------------------------------------
+                                  MEDIA
+--------------------------------------------------------------------------*/
 /* TABLET */
 @media screen and (min-width: 768px){
   /* Column Calc Application */
@@ -251,7 +265,28 @@ nav{
     font-size: 4rem;
   }
   /* End Stategic Planning */
-  
+
+  /* Testimonials Section */
+  .testimonials-section .circle-img{
+    margin: 0;
+  }
+  .testimonials-section .column-flex{
+    justify-content: flex-start;
+  }
+  .testimonials-section .col-30{
+    width: 30%;
+    align-self:baseline;
+  }
+
+  .testimonials-section .col-70{
+    width: 70%;
+    align-self: center;
+  }
+
+  .testimonials-section .align-items{
+    text-align: left;
+    padding: 1rem;
+  }
 }
 /* DESKTOP */
 @media screen and (min-width: 992px){
@@ -307,7 +342,6 @@ nav{
     width: 200px;
     margin: 0 auto;
   }
-  /* End Stategic Planning */
 }
 
 /*-----------------
@@ -354,6 +388,7 @@ nav{
   background-color: #9792e4;
   border-radius: 60px;
   color: black;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
