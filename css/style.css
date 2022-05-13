@@ -36,7 +36,6 @@ body{
   text-transform: uppercase;
   color: white;
 }
-
 /* Img */
 .circle-img{
   width: 200px;
@@ -99,15 +98,28 @@ body{
 
 /* Buttons */
 .buttons{
-  padding: 0.45rem 0.95rem;
+  padding: 7px 16px;
   border-radius: 20px;
   text-decoration: none;
 }
 .buttons-big{
-  padding: 0.65rem 3rem;
+  padding: 11px 48px;
   border-radius: 20px;
   text-decoration: none;
 }
+
+.get-start-btn{
+  background-color: white; /* Green */
+  border: none;
+  color: #9792e4;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
 
 /*-----------------
       HEADER
@@ -313,7 +325,54 @@ nav{
   font-weight: 700;
   padding: 2rem 0;
 }
+
+.about-us .col-70{
+  padding-bottom: 4rem;
+}
 /* End About US Section */
+/* Get Started */
+.get-started h4{
+  padding-top: 5rem;
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #d5d4f4;
+}
+
+.get-started h2{
+  padding: 2rem 0 4rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.get-started h3{
+  color: #fdc15f;
+  font-size: 5rem;
+  padding-bottom: 2rem;
+}
+
+.get-started p{
+  color: white;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+}
+.get-started ul{
+  padding: 2rem 0 3rem;
+  justify-content: center;
+}
+.get-started li{
+  color: white;
+  font-size: 0.8rem;
+  padding: 0 0.2rem;
+}
+
+.get-started li i{
+
+  font-size: 0.2rem;
+  vertical-align: middle;
+
+}
+/* End Get Started */
 /*-------------------------------------------------------------------------
                                   MEDIA
 --------------------------------------------------------------------------*/
@@ -396,6 +455,11 @@ nav{
   .about-us .col-70{
     width: calc((100% / 3) - 0.5rem); 
     padding-top: 5rem;
+  }
+  /* End About US Section */
+  .container-small{
+    width: 50%;
+    margin: 0 auto;
   }
 
 }
@@ -518,6 +582,10 @@ nav{
 
 .bg-blue{
   background-color: #0084fd;
+}
+
+.bg-dark-gray{
+  background-color: #333333;
 }
 
 .bg-testimonials{
