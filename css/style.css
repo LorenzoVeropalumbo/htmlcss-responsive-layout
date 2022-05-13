@@ -29,6 +29,21 @@ body{
   text-align: center;
   width: 100%;
 }
+
+/* Img */
+.circle-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.circle-img img{
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Column */
 .column-flex{
   display: flex;
@@ -38,7 +53,12 @@ body{
   width: 100%;
   margin-bottom: 1.5rem;
 }
-
+.testimonials-img-col{
+  width: 100%;
+}
+.testimonials-img-col{
+  width: 100%;
+}
 /* Containers */
 .container{
   max-width: 1170px;
@@ -168,12 +188,32 @@ nav{
 .stategic-planning .development-p{
   color: black;
   font-style: italic;
-  font-family: 'PT Sans', sans-serif;
   padding: 0 0.1rem;
 }
 .stategic-planning .container{
   padding-bottom: 3rem;
 }
+/* End Stategic Planning */
+
+/* Testimonials Section */
+.testimonials-section h3{
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.testimonials-section h2{
+  font-size: 35px;
+  color: #9792e4;
+}
+.testimonials-section p{
+  padding: 2rem 1rem;
+  font-size: 18px;
+  font-weight: 100;
+}
+
 /*-----------------
       MEDIA
 -----------------*/
@@ -248,15 +288,24 @@ nav{
   .stategic-planning .column-app{
     width: 40%;
   }
-  .stategic-planning .bg-app-development img{
-    width: 60%;
+  .stategic-planning img{
+    width: 100%;
     margin: 0 auto;
   }
-  .stategic-planning .bg-app-development p{
-    padding: 0 2rem;
+  .stategic-planning p{
+    padding: 2rem 0;
   }
   .stategic-planning .column-flex{
     padding: 0 5rem;
+  }
+
+  .stategic-planning h2{
+    font-size: 2rem;
+  }
+
+  .img-small{
+    width: 200px;
+    margin: 0 auto;
   }
   /* End Stategic Planning */
 }
@@ -299,4 +348,12 @@ nav{
 }
 .bg-violet{
   background-color: #9792e4;
+}
+
+.bg-testimonials{
+  background-color: #9792e4;
+  border-radius: 60px;
+  color: black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
