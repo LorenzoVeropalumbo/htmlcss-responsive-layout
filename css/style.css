@@ -446,7 +446,7 @@ footer p a{
     align-self: center;
   }
 
-  .testimonials-section .align-items{
+  .testimonials-section .col-30,.col-70 .align-items{
     text-align: left;
     padding: 1rem;
   }
