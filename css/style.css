@@ -74,6 +74,12 @@ body{
 .flex-container{
   display: flex;
 }
+
+.pos-relative{
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
 /* Paddings */
 .mobile-padding{
   padding-left: 2rem;
@@ -277,7 +283,37 @@ nav{
   padding: 4rem 0 2rem;
 }
 
-.about-us p
+.about-us p{
+  font-size: 1.1rem;
+  font-weight: 200;
+  line-height: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.about-us .circle-img{
+  margin: 0;
+}
+.about-us .pos-relative span{
+  position: absolute;
+  font-size: 230px;
+  line-height: 200px;
+  top: 0;
+  left: 70%;
+  display: block;
+  color: #9792e4;
+}
+
+.about-us .col-70 i{
+  padding-right: 0.5rem;
+}
+.about-us .font-foto{
+  font-size: 1.8rem;
+  color: #9792e4;
+  line-height: 2.5rem;
+  font-weight: 700;
+  padding: 2rem 0;
+}
+/* End About US Section */
 /*-------------------------------------------------------------------------
                                   MEDIA
 --------------------------------------------------------------------------*/
@@ -347,6 +383,21 @@ nav{
     width: calc((100% / 2 - 1rem));
   }
   /* End Benefits Section */
+
+  /* About US Section */
+  .about-us .column-flex{
+    justify-content: space-between;
+  }
+  .about-us .col-30{   
+    width: calc(((100% / 3) * 1.8 - 0.5rem));
+    padding-bottom: 4rem;
+    
+  }
+  .about-us .col-70{
+    width: calc((100% / 3) - 0.5rem); 
+    padding-top: 5rem;
+  }
+
 }
 /* DESKTOP */
 @media screen and (min-width: 992px){
@@ -430,6 +481,10 @@ nav{
   text-align: center;
   line-height: 50px;
   vertical-align: middle;
+}
+.btn-purple{
+  color: white;
+  background-color: #9792e4;
 }
 .btn-spacing{
   letter-spacing: 0.2rem;
