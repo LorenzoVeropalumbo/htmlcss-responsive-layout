@@ -228,6 +228,46 @@ nav{
 .testimonials-section .align-items{
   padding: 1rem;
 }
+
+.testimonials-section .container:last-child{
+  padding-bottom: 3rem;
+}
+/* End Testimonials Section */
+
+/* Benefits Section */
+.benefits-section .card-padding{
+  padding-bottom: 3rem;
+}
+.benefits-section h2{
+  padding: 4rem 0;
+  color: white;
+  font-size: 40px;
+}
+
+.benefits-section span{
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #9792e4;
+}
+
+.benefits-section h3{
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #9792e4;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.benefits-section p{
+
+  line-height: 1.8rem;
+  font-weight: 100;
+  padding-bottom: 2.5rem;
+}
+
+.benefits-section .column-flex:last-child{
+  padding-bottom: 3rem;
+}
 /*-------------------------------------------------------------------------
                                   MEDIA
 --------------------------------------------------------------------------*/
@@ -246,7 +286,7 @@ nav{
     margin-right: 1.5rem;
   }
   /* Column content */
-  .card-padding{
+  .demo-app .card-padding{
     padding: 2rem 1.5rem 0 1.5rem;
   }
   .demo-app p{
@@ -287,6 +327,16 @@ nav{
     text-align: left;
     padding: 1rem;
   }
+  /* End Testimonials Section */
+
+  /* Benefits Section */
+  .benefits-section .column-flex{
+    justify-content: space-between;
+  }
+  .benefits-section .column-app{
+    width: calc((100% / 2 - 1rem));
+  }
+
 }
 /* DESKTOP */
 @media screen and (min-width: 992px){
@@ -342,6 +392,11 @@ nav{
     width: 200px;
     margin: 0 auto;
   }
+  /* End Stategic Planning */
+
+  .benefits-section .column-app{
+    width: calc((100% / 3 - 1rem));
+  }
 }
 
 /*-----------------
@@ -362,19 +417,27 @@ nav{
   line-height: 50px;
   vertical-align: middle;
 }
-.app-store-btn{
+.btn-spacing{
   letter-spacing: 0.2rem;
   font-weight: 500;
   color: white;
-  background-color: #0084fd;
   font-weight: 700;
 }
+
 .bg-app-development{
   background-color: white;
   border-radius: 60px;
   color: black;
   padding-top: 2rem;
 }
+
+.bg-app-benefits{
+  background-color: white;
+  border-radius: 30px;
+  color: black;
+  padding-top: 2rem;
+}
+
 .bg-light-blue{
   background-color: #b5ddff; 
   border-radius: 20px;
@@ -382,6 +445,10 @@ nav{
 }
 .bg-violet{
   background-color: #9792e4;
+}
+
+.bg-blue{
+  background-color: #0084fd;
 }
 
 .bg-testimonials{
